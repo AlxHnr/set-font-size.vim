@@ -34,7 +34,7 @@ if &term =~ '^rxvt-unicode\(-256color\)\?$'
   else
     let s:initial_size = s:match[2]
     let s:current_size = s:initial_size
-    let s:escape_seq_start = '\e]710;xft:DejaVu Sans Mono:pixelsize='
+    let s:escape_seq_start = '\e]710;' . s:match[1]
     let s:escape_seq_end = '\007'
     let s:min_size = 6
   endif
