@@ -2,10 +2,10 @@
 
 This plugin allows you to resize the terminal font on the fly. At the
 moment only [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode) is
-supported, and only if you have defined a custom font with a specified size
-in your _~/.Xresources_.
+supported, and only if you have defined a xft font with a specified size in
+your _~/.Xresources_.
 
-The plugin defines only one command: **SetFontSize**. Here are some
+The plugin defines just one command: **SetFontSize**. Here are some usage
 examples:
 
 ```vim
