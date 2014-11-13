@@ -71,7 +71,5 @@ function! set_font_size#set(arg) " {{{
   execute "silent !echo -en '" . s:escape_seq_start . s:current_size
     \ . s:escape_seq_end . "'"
 
-  if s:current_size == l:old_size
-    redraw!
-  endif
+  redraw!
 endfunction " }}}
